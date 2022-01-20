@@ -1,0 +1,4 @@
+
+
+npm publish --access=public
+
