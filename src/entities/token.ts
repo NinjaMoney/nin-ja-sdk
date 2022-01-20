@@ -122,12 +122,12 @@ export const WETH = {
   //   'Wrapped SDN',
   //   ''
   // ),
-  // [ChainId.XDAI]: new Token(
-  //   ChainId.XDAI,
-  //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-  //   18,
-  //   'WXDAI',
-  //   'Wrapped XDAI',
-  //   ''
-  // )
+  [ChainId.XDAI]: new Token(
+    ChainId.XDAI,
+    '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
+    18,
+    'WXDAI',
+    'Wrapped XDAI',
+    ''
+  )
 }
