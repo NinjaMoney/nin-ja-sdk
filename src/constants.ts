@@ -10,10 +10,10 @@ export enum ChainId {
   XDAI = 100,
   ONE = 1666600000,
   ASTAR = 592, 
-  SHIDEN = 336,
+  // SHIDEN = 336,
   FANTOM = 250,
-  OPTIMISTIC = 10,
-  TESTNET = 97
+  // OPTIMISTIC = 10,
+  // TESTNET = 97
 }
 
 export enum TradeType {

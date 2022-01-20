@@ -67,7 +67,7 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 
 export const WETH = {
   [ChainId.MAINNET]: new Token(
-    ChainId.MAINNET,
+    ChainId.MAINNET, // ASTAR
     '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
     18,
     'WBNB',
@@ -82,14 +82,14 @@ export const WETH = {
     'Wrapped BNB',
     'https://www.binance.org'
   ),
-  [ChainId.TESTNET]: new Token(
-    ChainId.TESTNET,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-    18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
-  ),
+  // [ChainId.TESTNET]: new Token(
+  //   ChainId.TESTNET,
+  //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+  //   18,
+  //   'WBNB',
+  //   'Wrapped BNB',
+  //   'https://www.binance.org'
+  // ),
   [ChainId.ASTAR]: new Token(
     ChainId.ASTAR,
     '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
@@ -100,7 +100,7 @@ export const WETH = {
   ),
   [ChainId.FANTOM]: new Token(
     ChainId.FANTOM,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
     18,
     'WFTM',
     'Wrapped FTM',
@@ -108,34 +108,26 @@ export const WETH = {
   ),
   [ChainId.ONE]: new Token(
     ChainId.ONE,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
     18,
     'WONE',
     'Wrapped ONE',
     'https://harmony.one/'
   ),
-  [ChainId.OPTIMISTIC]: new Token(
-    ChainId.OPTIMISTIC,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-    18,
-    'OETH',
-    'Wrapped OETH',
-    ''
-  ),
-  [ChainId.SHIDEN]: new Token(
-    ChainId.SHIDEN,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-    18,
-    'WSDN',
-    'Wrapped SDN',
-    ''
-  ),
-  [ChainId.XDAI]: new Token(
-    ChainId.XDAI,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-    18,
-    'WXDAI',
-    'Wrapped XDAI',
-    ''
-  )
+  // [ChainId.SHIDEN]: new Token(
+  //   ChainId.SHIDEN,
+  //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+  //   18,
+  //   'WSDN',
+  //   'Wrapped SDN',
+  //   ''
+  // ),
+  // [ChainId.XDAI]: new Token(
+  //   ChainId.XDAI,
+  //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+  //   18,
+  //   'WXDAI',
+  //   'Wrapped XDAI',
+  //   ''
+  // )
 }
