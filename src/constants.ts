@@ -6,12 +6,13 @@ export type BigintIsh = JSBI | bigint | string
 export enum ChainId {
   // MAINNET = 56, // BSC
   MAINNET = 592, // ASTAR
-  BSC = 56,
-  XDAI = 100,
-  ONE = 1666600000,
-  ASTAR = 592, 
+  // ASTAR = 592, 
   // SHIDEN = 336,
-  FANTOM = 250,
+
+  // BSC = 56,
+  // XDAI = 100,
+  // ONE = 1666600000,
+  // FANTOM = 250,
   // OPTIMISTIC = 10,
   // TESTNET = 97
 }

@@ -74,14 +74,14 @@ export const WETH = {
     'Wrapped BNB',
     'https://www.binance.org'
   ),
-  [ChainId.BSC]: new Token(
-    ChainId.BSC,
-    '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
-    18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
-  ),
+  // [ChainId.BSC]: new Token(
+  //   ChainId.BSC,
+  //   '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+  //   18,
+  //   'WBNB',
+  //   'Wrapped BNB',
+  //   'https://www.binance.org'
+  // ),
   // [ChainId.TESTNET]: new Token(
   //   ChainId.TESTNET,
   //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
@@ -90,30 +90,30 @@ export const WETH = {
   //   'Wrapped BNB',
   //   'https://www.binance.org'
   // ),
-  [ChainId.ASTAR]: new Token(
-    ChainId.ASTAR, // 
-    '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
-    18,
-    'wASTR',
-    'Wrapped ASTR',
-    'https://www.binance.org'
-  ),
-  [ChainId.FANTOM]: new Token(
-    ChainId.FANTOM,
-    '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
-    18,
-    'WFTM',
-    'Wrapped FTM',
-    'https://fantom.foundation'
-  ),
-  [ChainId.ONE]: new Token(
-    ChainId.ONE,
-    '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
-    18,
-    'WONE',
-    'Wrapped ONE',
-    'https://harmony.one/'
-  ),
+  // [ChainId.ASTAR]: new Token(
+  //   ChainId.ASTAR, // 
+  //   '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
+  //   18,
+  //   'wASTR',
+  //   'Wrapped ASTR',
+  //   'https://www.binance.org'
+  // ),
+  // [ChainId.FANTOM]: new Token(
+  //   ChainId.FANTOM,
+  //   '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
+  //   18,
+  //   'WFTM',
+  //   'Wrapped FTM',
+  //   'https://fantom.foundation'
+  // ),
+  // [ChainId.ONE]: new Token(
+  //   ChainId.ONE,
+  //   '0xcf664087a5bb0237a0bad6742852ec6c8d69a27a',
+  //   18,
+  //   'WONE',
+  //   'Wrapped ONE',
+  //   'https://harmony.one/'
+  // ),
   // [ChainId.SHIDEN]: new Token(
   //   ChainId.SHIDEN,
   //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
@@ -122,12 +122,12 @@ export const WETH = {
   //   'Wrapped SDN',
   //   ''
   // ),
-  [ChainId.XDAI]: new Token(
-    ChainId.XDAI,
-    '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
-    18,
-    'WXDAI',
-    'Wrapped XDAI',
-    ''
-  )
+  // [ChainId.XDAI]: new Token(
+  //   ChainId.XDAI,
+  //   '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
+  //   18,
+  //   'WXDAI',
+  //   'Wrapped XDAI',
+  //   ''
+  // )
 }
