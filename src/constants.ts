@@ -15,6 +15,7 @@ export enum ChainId {
   // FANTOM = 250,
   // OPTIMISTIC = 10,
   // TESTNET = 97
+  // TESTNET = 336 // SHIDEN
 }
 
 export enum TradeType {
