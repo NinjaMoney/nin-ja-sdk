@@ -70,9 +70,9 @@ export const WETH = {
     ChainId.MAINNET, // ASTAR
     '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
+    'WASTR',
+    'Wrapped Astar',
+    'https://astar.network/'
   ),
   // [ChainId.BSC]: new Token(
   //   ChainId.BSC,
@@ -84,11 +84,11 @@ export const WETH = {
   // ),
   [ChainId.TESTNET]: new Token(
     ChainId.TESTNET,
-    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
     18,
-    'WBNB',
-    'Wrapped BNB',
-    'https://www.binance.org'
+    'WASTR',
+    'Wrapped Astar',
+    'https://astar.network/'
   ),
   // [ChainId.ASTAR]: new Token(
   //   ChainId.ASTAR, // 
