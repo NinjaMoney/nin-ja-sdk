@@ -14,7 +14,7 @@ export enum ChainId {
   // ONE = 1666600000,
   // FANTOM = 250,
   // OPTIMISTIC = 10,
-  // TESTNET = 97
+  TESTNET = 97
   // TESTNET = 336 // SHIDEN
 }
 

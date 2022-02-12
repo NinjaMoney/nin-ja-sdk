@@ -82,14 +82,14 @@ export const WETH = {
   //   'Wrapped BNB',
   //   'https://www.binance.org'
   // ),
-  // [ChainId.TESTNET]: new Token(
-  //   ChainId.TESTNET,
-  //   '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
-  //   18,
-  //   'WBNB',
-  //   'Wrapped BNB',
-  //   'https://www.binance.org'
-  // ),
+  [ChainId.TESTNET]: new Token(
+    ChainId.TESTNET,
+    '0xaE8E19eFB41e7b96815649A6a60785e1fbA84C1e',
+    18,
+    'WBNB',
+    'Wrapped BNB',
+    'https://www.binance.org'
+  ),
   // [ChainId.ASTAR]: new Token(
   //   ChainId.ASTAR, // 
   //   '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
